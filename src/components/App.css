@@ -1,0 +1,123 @@
+.watch {
+  margin-top: 15vh;
+}
+.title {
+  margin-bottom: 10px;
+}
+
+.menuList {
+  display: flex;
+  gap: 5px;
+}
+.sub {
+  /* display: flex;
+  justify-content: space-between; */
+  width: 100%;
+  /* align-items: center; */
+  border-radius: 5px;
+  padding: 8px 10px;
+}
+.title {
+  display: flex;
+  align-items: center;
+}
+.sub h1 {
+  color: #fff;
+}
+.download {
+  display: flex;
+  align-content: center;
+  /* justify-content: center; */
+  gap: 10px;
+  /* grid-template-columns: repeat(3, 1fr); */
+  flex-wrap: wrap;
+}
+.download .show {
+  text-align: center;
+  color: #fff;
+  background: #303135;
+  display: block;
+  margin: 5px;
+  font-family: "Poppins", "sans-serif";
+  font-size: 0.6em;
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.download .show:first-child {
+  background: #a9c93f;
+}
+
+/* Details */
+.details {
+  margin-top: 13vh;
+}
+
+.details .desc {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.desc .imgTitle {
+  left: 70px;
+}
+.desc .imgTitle img {
+  width: 200px;
+}
+.contentsDetails {
+  gap: 15px;
+}
+
+/* Episode  */
+.optionEpisode::-webkit-scrollbar {
+  background: rgb(70, 70, 70);
+  width: 5px;
+  height: 8px;
+}
+.optionEpisode::-webkit-scrollbar-thumb {
+  background: #4d82f3;
+  border-radius: 3px;
+}
+
+.menuList::-webkit-scrollbar {
+  background: rgb(70, 70, 70);
+  width: 7px;
+  height: 10px;
+}
+
+.menuList::-webkit-scrollbar-thumb {
+  background: #4d82f3;
+  border-radius: 3px;
+}
+@media screen and (min-width: 768px) {
+  .watch {
+    margin-top: 20vh;
+  }
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .contentsDetails {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+  }
+  .details .desc {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  .details {
+    margin-top: 25vh;
+  }
+  .download {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .download .show {
+    padding: 10px 14px;
+    font-size: 0.7em;
+  }
+}

@@ -1,13 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Itim&family=Luckiest+Guy&family=Mochiy+Pop+One&family=Montserrat:wght@300;500&family=Poppins&family=Public+Sans&family=Questrial&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #282c34;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  height: 0;
 }
